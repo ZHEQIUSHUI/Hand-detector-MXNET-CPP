@@ -3,7 +3,7 @@
 #pragma comment(lib,"opencv_world410.lib")
 #pragma comment(lib,"libmxnet.lib")
 
-#include <opencv2\opencv.hpp>
+#include <opencv2/opencv.hpp>
 #include <iostream>
 #include "HandDetector.h"
 using namespace std;
@@ -11,7 +11,7 @@ using namespace cv;
 int main()
 {
 	HandDetector detector(true);
-	detector.Loadmodel("E:\\PyCode", "faster_rcnn_resnet50_v1b_custom");//ssd_512_mobilenet1.0_custom
+	detector.Loadmodel("models/", "faster_rcnn_resnet50_v1b_custom");//ssd_512_mobilenet1.0_custom
 
 
 	VideoCapture video(0);
