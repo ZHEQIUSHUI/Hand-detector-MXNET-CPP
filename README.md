@@ -4,7 +4,7 @@
 
 [baidu cloud](https://pan.baidu.com/s/1TJO2aVy_WHpcHly-5LfIJQ)  Code:uif8
 
-there are two model,SSD and Faster-rcnn,Run same code both that.
+there are two model,SSD and Faster-rcnn,Run same code both that.you can download dan put them in the models folder
 
 
 ## Example-SSD
